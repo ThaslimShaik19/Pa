@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MOON</title>
+    <style>
+      body{
+    background-image: url(sky.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1{
+    color: whitesmoke;
+    padding: 20px;
+  }
+  p{
+    color: burlywood;
+    padding: 20px;
+  }
+  .moon-picture{
+    width: 450px;
+    border: 8px solid rgb(249, 217, 222);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.moon-picture:hover{
+    transform: rotate(10deg);
+    border-color: rgb(195, 200, 246);
+    box-shadow: 0px 0px 10px 2px #ccccfa;
+}
+#end{
+  font-size: 30px;
+  color: aliceblue;
+
+}
+
+
+    </style>
+</head>
+<body>
+  <h1><u>MOON🌛</u></h1>
+  <p><b><u>click the picture as many times as you can in<span id="time">10</span> wacky seconds!</b></u></p>  
+  <img src="moon.gif" id="moonpicture" alt="moon picture" class="moon-picture" height="338px">
+  <p id="score">Score: 0</p>
+  <script src="panda.js"></script>
+  <div id="end"></div>
+</body>
+</html>
+
+  
